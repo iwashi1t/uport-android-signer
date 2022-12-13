@@ -51,9 +51,9 @@ dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version"
     implementation "com.android.support:appcompat-v7:$support_lib_version"
 
-    api "com.github.komputing.KEthereum:bip39:$kethereum_version"
-    api "com.github.komputing.KEthereum:bip32:$kethereum_version"
-    api "com.github.komputing.KEthereum:bip39_wordlist_en:$kethereum_version"
+    api "com.github.iwashi1t.KEthereum:bip39:$kethereum_version"
+    api "com.github.iwashi1t.KEthereum:bip32:$kethereum_version"
+    api "com.github.iwashi1t.KEthereum:bip39_wordlist_en:$kethereum_version"
     api "com.github.uport-project.kotlin-common:signer-common:$kotlin_common_version"
     implementation "com.madgag.spongycastle:prov:$spongycastle_version"
 
@@ -63,5 +63,5 @@ dependencies {
     androidTestImplementation "com.github.uport-project.kotlin-common:test-helpers:$kotlin_common_version"
 
     testImplementation "com.willowtreeapps.assertk:assertk-jvm:$assertk_version"
-    testImplementation "com.github.komputing.KEthereum:bip44:$kethereum_version"
+    testImplementation "com.github.iwashi1t.KEthereum:bip44:$kethereum_version"
 }

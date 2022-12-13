@@ -23,7 +23,7 @@ buildscript {
         detekt_version = "1.0.0-RC14"
 
         spongycastle_version = "1.58.0.0"
-        kethereum_version = "0.75.1"
+        kethereum_version = "uport-2212131826"
         kotlin_common_version = "0.1.2"
         jacoco_version = "0.8.4"
 
